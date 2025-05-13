@@ -1,0 +1,41 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  font-size: 75px;
+  margin-bottom: 0;
+  font-weight: 600;
+  padding: 0;
+}
+.role {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttons button {
+  padding: 12px 12px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 14px;
+}
+.buttons button:hover {
+  background: rgb(61, 61, 255);
+  color: white;
+  border: none;
+}
+.resume a {
+  text-decoration: none;
+  color: black;
+}
+.resume a:hover {
+  color: white;
+}
