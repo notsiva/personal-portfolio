@@ -1,0 +1,28 @@
+.contact {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .title {
+  font-size: 66px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.contact .content {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-top: 0px;
+  padding: 0;
+  max-width: 900px;
+  text-align: center;
+}
+.contact .connection {
+  text-decoration: none;
+  color: white;
+  background: #5dbea3;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 25px;
+}

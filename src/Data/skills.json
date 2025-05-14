@@ -1,0 +1,35 @@
+[
+  { "skill": "HTML", "img": "Skills/html.png" },
+  {
+    "skill": "CSS",
+    "img": "Skills/css.png"
+  },
+  {
+    "skill": "Java Script",
+    "img": "Skills/js.png"
+  },
+  {
+    "skill": "Bootstrap",
+    "img": "Skills/bootstrap.png"
+  },
+  {
+    "skill": "React",
+    "img": "Skills/react.png"
+  },
+  {
+    "skill": "Pyhton",
+    "img": "Skills/python.png"
+  },
+  {
+    "skill": "JSON",
+    "img": "Skills/json.png"
+  },
+  {
+    "skill": "PostgreSQL",
+    "img": "Skills/postgres.png"
+  },
+  {
+    "skill": "Git/Github",
+    "img": "Skills/git.png"
+  }
+]

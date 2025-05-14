@@ -21,14 +21,17 @@
   gap: 30px;
 }
 
-.buttons button {
+.buttons a {
   padding: 12px 12px;
-  border: 1px solid black;
+  border: 1px solid #5dbea3;
   background: white;
   border-radius: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
-.buttons button:hover {
-  background: rgb(61, 61, 255);
+.buttons a:hover {
+  background: #5dbea3;
   color: white;
   border: none;
 }
@@ -36,6 +39,7 @@
   text-decoration: none;
   color: black;
 }
-.resume a:hover {
-  color: white;
+.role-description {
+  max-width: 700px;
+  text-align: center;
 }

@@ -1,0 +1,40 @@
+.about {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me p {
+  max-width: 850px;
+  line-height: 1.75;
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.skill-set li img {
+  width: 60px;
+}
+.skill-set li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
