@@ -55,3 +55,34 @@
 .links {
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .navigation {
+    display: flex;
+    /* flex-direction: column; */
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 550px) {
+  .navigation {
+    margin-bottom: 0;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .links a {
+    font-size: 12px;
+  }
+
+  .links img {
+    width: 10px;
+    height: 10px;
+    display: none;
+  }
+}

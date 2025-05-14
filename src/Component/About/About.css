@@ -38,3 +38,43 @@
   align-items: center;
   margin-top: 24px;
 }
+@media (max-width: 850px) {
+  .skill-set {
+    flex-wrap: wrap;
+  }
+  .skill-set li {
+    align-items: center;
+  }
+  .about-me {
+    margin-top: 50px;
+  }
+  .about-me p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .skill-set li img {
+    width: 25px;
+  }
+  .skill-set {
+    margin-left: 0;
+  }
+  .skill-set li p {
+    display: none;
+  }
+  .about {
+    gap: 0;
+  }
+  .about {
+    height: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .skill-set {
+    gap: 10px;
+  }
+  .skills {
+    padding-bottom: 10px;
+  }
+}
