@@ -21,7 +21,9 @@
 .skill-set {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 75px;
+  animation: scroll-left 20s linear infinite;
+  width: max-content;
 }
 .skill-set li img {
   width: 60px;
@@ -38,10 +40,12 @@
   align-items: center;
   margin-top: 24px;
 }
+.scroller {
+  max-width: 700px;
+  overflow: hidden;
+}
+
 @media (max-width: 850px) {
-  .skill-set {
-    flex-wrap: wrap;
-  }
   .skill-set li {
     align-items: center;
   }
@@ -51,16 +55,20 @@
   .about-me p {
     font-size: 12px;
   }
+  .scroller {
+    max-width: 500px;
+  }
 }
 @media (max-width: 650px) {
   .skill-set li img {
-    width: 25px;
+    width: 50px;
   }
   .skill-set {
     margin-left: 0;
+    gap: 30px;
   }
-  .skill-set li p {
-    display: none;
+  .scroller {
+    max-width: 300px;
   }
   .about {
     gap: 0;
@@ -74,7 +82,28 @@
   .skill-set {
     gap: 10px;
   }
+  .skill-set li img {
+    width: 30px;
+  }
+  .skill-set li p{
+    font-size: 12px;
+  }
+  .scroller {
+    max-width: 200px;
+  }
   .skills {
     padding-bottom: 10px;
   }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.skill-set:hover {
+  animation-play-state: paused;
 }

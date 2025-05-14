@@ -22,16 +22,18 @@ const About = () => {
       </div>
       <div className="skills">
         <h2>Skills I work with</h2>
-        <ul className="skill-set">
-          {skills.map((skills, id) => {
-            return (
-              <li key={id} className="skill-item">
-                <img src={`/assets/${skills.img}`} alt={skills.skill} />
-                <p>{skills.skill}</p>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="scroller">
+          <ul className="skill-set">
+            {[...skills, ...skills].map((skills, id) => {
+              return (
+                <li key={id} className="skill-item">
+                  <img src={`/assets/${skills.img}`} alt={skills.skill} />
+                  <p>{skills.skill}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );
