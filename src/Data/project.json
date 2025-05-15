@@ -1,0 +1,8 @@
+[
+  {
+    "img": "Projects/edusity.png",
+    "name": "Edusity - Landing page",
+    "description": "Designed and developed a fully responsive landing page for Edusity, a conceptual online learning platform, using React, Vite, HTML, CSS, and JavaScript. The project focused on performance and user experience, ensuring fast load times and seamless interactions. I built modular, reusable UI components in React, with content dynamically rendered from JSON to support easy updates and scalability. The design followed modern web standards emphasizing accessibility, responsiveness, and clean, intuitive aesthetics across both desktop and mobile devices.",
+    "link": "https://edusity-siva.netlify.app/"
+  }
+]
