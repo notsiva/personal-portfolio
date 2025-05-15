@@ -79,13 +79,13 @@
 }
 
 @media (max-width: 400px) {
-  .skill-set {
-    gap: 10px;
+  .skill-set li {
+    gap: 20px;
   }
   .skill-set li img {
     width: 30px;
   }
-  .skill-set li p{
+  .skill-set li p {
     font-size: 12px;
   }
   .scroller {
