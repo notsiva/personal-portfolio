@@ -5,14 +5,6 @@
     "img": "Skills/css.png"
   },
   {
-    "skill": "Java Script",
-    "img": "Skills/js.png"
-  },
-  {
-    "skill": "Bootstrap",
-    "img": "Skills/bootstrap.png"
-  },
-  {
     "skill": "React",
     "img": "Skills/react.png"
   },
