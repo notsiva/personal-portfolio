@@ -12,10 +12,7 @@
     "skill": "Pyhton",
     "img": "Skills/python.png"
   },
-  {
-    "skill": "JSON",
-    "img": "Skills/json.png"
-  },
+
   {
     "skill": "PostgreSQL",
     "img": "Skills/postgres.png"
