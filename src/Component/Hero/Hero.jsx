@@ -6,10 +6,11 @@ const Hero = ({ onNavigate }) => {
   return (
     <div className="hero">
       <h1 className="intro">Hi, I'm Sivakaran</h1>
-      <h2 className="role">Software Engineer | Customer Support Executive</h2>
+      <h2 className="role">Software Engineer | Full Stack Developer</h2>
       <p className="role-description">
-        I work on developing and testing new product features while managing
-        client interactions to ensure their requirements are met
+        Full Stack Developer who designs and builds responsive, dynamic web
+        applications with a focus on clean UI, smooth user experiences, and
+        scalable functionality.
       </p>
       <div className="buttons">
         <a className="project" onClick={() => onNavigate("project")}>

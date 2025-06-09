@@ -10,14 +10,13 @@ const About = () => {
         <p>
           I specialize in full-stack software development, combining frontend
           and backend technologies to build efficient and user-friendly
-          applications. With strong experience in Java, Python, HTML, CSS,
-          JavaScript, and PostgreSQL, I create robust systems backed by
-          well-structured databases. I also develop dynamic reports using
-          JasperReports and I-Report, helping clients turn data into actionable
-          insights. In addition to development, I provide end-to-end technical
-          support, troubleshoot application issues, and work closely with
-          clients for smooth implementation, product training, and ongoing user
-          support.
+          applications. With strong experience in ReactJS, Node.js, Python,
+          HTML, CSS, JavaScript, and PostgreSQL, I create robust systems backed
+          by well-structured databases. I also develop dynamic reports using
+          I-Report, helping clients turn data into actionable insights. In
+          addition to development, I provide end-to-end technical support,
+          troubleshoot application issues, and work closely with clients for
+          smooth implementation, product training, and ongoing user support.
         </p>
       </div>
       <div className="skills">

@@ -36,11 +36,21 @@
   flex-wrap: wrap;
   margin-left: 0;
   margin-right: 0;
+  display: none;
 }
 .single-project:hover {
   background: #ececec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.3s;
+}
+
+.place-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 10%;
 }
 @media (max-width: 1300px) {
   .single-project {
@@ -60,9 +70,13 @@
     max-width: 100%;
   }
   .projects {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    margin-top: 10%;
+  }
+  .place-holder {
+    font-size: 2rem;
   }
 }
 @media (max-width: 650px) {
@@ -78,5 +92,8 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .place-holder {
+    margin-top: 30%;
   }
 }
