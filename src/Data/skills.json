@@ -5,8 +5,32 @@
     "img": "Skills/css.png"
   },
   {
-    "skill": "React",
+    "skill": "Bootstrap",
+    "img": "Skills/bootstrap.png"
+  },
+  {
+    "skill": "Tailwind css",
+    "img": "Skills/tailwind.png"
+  },
+  {
+    "skill": "javascript",
+    "img": "Skills/js.png"
+  },
+  {
+    "skill": "node.js",
+    "img": "Skills/node.png"
+  },
+  {
+    "skill": "express.js",
+    "img": "Skills/express.png"
+  },
+  {
+    "skill": "React.js",
     "img": "Skills/react.png"
+  },
+  {
+    "skill": "JSON",
+    "img": "Skills/json.png"
   },
   {
     "skill": "Pyhton",
