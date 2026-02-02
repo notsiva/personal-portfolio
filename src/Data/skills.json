@@ -36,6 +36,10 @@
     "skill": "Pyhton",
     "img": "Skills/python.png"
   },
+  {
+    "skill": "Java",
+    "img": "Skills/java.png"
+  },
 
   {
     "skill": "PostgreSQL",

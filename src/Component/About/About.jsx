@@ -8,15 +8,17 @@ const About = () => {
       <div className="about-me">
         <h2>What I do</h2>
         <p>
-          I specialize in full-stack software development, combining frontend
-          and backend technologies to build efficient and user-friendly
-          applications. With strong experience in ReactJS, Node.js, Python,
-          HTML, CSS, JavaScript, and PostgreSQL, I create robust systems backed
-          by well-structured databases. I also develop dynamic reports using
-          I-Report, helping clients turn data into actionable insights. In
-          addition to development, I provide end-to-end technical support,
-          troubleshoot application issues, and work closely with clients for
-          smooth implementation, product training, and ongoing user support.
+          I am a full-stack software developer with experience in building
+          efficient and user-friendly applications using ReactJS, Node.js,
+          Python, HTML, CSS, JavaScript, and PostgreSQL. I have strong knowledge
+          of Java full-stack development, including Core Java, OOP concepts,
+          JDBC, Servlets, JSP, and Spring-based architectures, enabling me to
+          work across multiple technology stacks. I specialize in developing
+          robust backend systems, well-structured databases, and dynamic reports
+          using I-Report to deliver actionable insights. Alongside development,
+          I provide end-to-end technical support, troubleshoot application
+          issues, and collaborate closely with clients to ensure smooth
+          implementation, effective training, and ongoing user support.
         </p>
       </div>
       <div className="skills">
